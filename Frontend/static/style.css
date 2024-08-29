@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius:11px ;
+    width: 500px;
+    min-height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px 2px rgb(209, 207, 207);
+    background: linear-gradient(to right, rgb(223, 219, 219),white);
+}
+.img{
+    width: 65px;
+    height: 65px;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: pink;
+}
+
+
+
+
+.input{
+    border: 1px solid rgb(215, 212, 212);
+    width: 400px;
+    min-height: 80px;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius:11px ;
+    box-shadow: 1px 1px 2px 2px rgb(209, 207, 207) inset;
+}
+
+
+.output{
+    border: 1px solid rgb(207, 206, 206);
+    width: 400px;
+    height: 130px;
+    overflow: scroll;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius:11px ;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(209, 207, 207) inset;
+}
+
+
+
+.output::-webkit-scrollbar{
+    display: none;
+}
+
+.output{
+    scrollbar-width: none;
+}

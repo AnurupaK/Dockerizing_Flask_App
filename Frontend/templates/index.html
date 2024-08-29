@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.jpg') }}" type="image/jpeg">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <title>Flask_App</title>
+</head>
+<body>
+
+
+    <div class="box">
+        <div class="img">🖼️</div>
+        <input type="file" id="imageInput" style="display: none;" accept="image/*">
+        <input class="input" placeholder="Type in....">
+        <div class="output_text output">Output Text</div>
+        <div class="output_image output">Uploaded Image</div>
+    </div>
+
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
